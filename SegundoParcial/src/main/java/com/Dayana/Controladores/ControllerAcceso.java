@@ -49,7 +49,7 @@ public class ControllerAcceso extends HttpServlet {
 			sesion.invalidate();
 		}
 		else if(iniciar != null) {
-			response.sendRedirect("login.jsp");
+			response.sendRedirect("Login.jsp");
 		}
 		else {
 			
